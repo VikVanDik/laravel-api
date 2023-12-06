@@ -1,0 +1,43 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'resources/scss/admin/partials/button_logout';
+@import 'resources/scss/admin/partials/checkbox';
+@import 'resources/scss/admin/partials/colors';
+@import 'resources/scss/admin/partials/table';
+@import 'resources/scss/admin/layout/header';
+@import 'resources/scss/admin/layout/sidebar';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.V-container {
+    padding-top: 50px;
+    padding-right: 40px;
+    margin-left: 50px;
+    width: 90%;
+}
+
+.main-wrapper {
+    height: calc(100vh - 80px);
+    background-color: #9E9FA5;
+}
+
+.no-border {
+    border: none !important;
+}
+
+.no-border:focus, .no-border:active, .no-border:hover {
+    border: none !important;
+    outline: none !important;
+    background-color: gray;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+
+
+
